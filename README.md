@@ -27,7 +27,7 @@ The xml file should have the following pattern:
     <string name="quote">Use your imagination to produce creative work and solve problems.</string>
 </resources>
 ```
-***If you don`t want to run the project on your own server you can try it [here](https://slaviboy.github.io/AndroidTranslateStringResources/).***
+***If you don`t want to run the project on your own server you can try it [here](https://ducanh3005.github.io/AndroidTranslateStringResources/).***
 
 ## Problem
 If you have problem converting your file, this is usually caused by slow internet connection or sometimes the Google servers are too busy. When that happens you can try refreshing the page and try again (this fixes it 99% of the time). If that does not work you can increase the interval through which the fields are translated by google. Go to the **./js/main.js** file and increase the **interval** property value (first property).
